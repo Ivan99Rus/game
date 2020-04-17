@@ -96,10 +96,10 @@ createNumberDiv = (index, element, flag) => {
 
     if (flag) {
         img.classList.add(index);
-        img.src = "../img/" + index + ".svg";
+        img.src = "img/" + index + ".svg";
     } else {
         img.classList.add(numToString[(Number(index) + 1)]);
-        img.src = "../img/" + numToString[(Number(index) + 1)] + ".svg";
+        img.src = "img/" + numToString[(Number(index) + 1)] + ".svg";
     }
 
     imageWrap.append(img);
